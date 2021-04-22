@@ -3,7 +3,7 @@
     "path": "D:/ownCloud2/!!!Projekty/!Pavlina/nacteniDat.R",
     "project_path": "nacteniDat.R",
     "type": "r_source",
-    "hash": "3764094592",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1619000290022.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "35,44",
-        "scrollLine": "30"
+        "cursorPosition": "67,7",
+        "scrollLine": "46"
     },
     "folds": "",
-    "lastKnownWriteTime": 1619071234,
+    "lastKnownWriteTime": 1619073444,
     "encoding": "WINDOWS-1250",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1619071234196,
+    "last_content_update": 1619073444062,
     "read_only": false,
     "read_only_alternatives": []
 }

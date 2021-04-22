@@ -33,12 +33,16 @@ files
 
 # ## Naètení dat ze *.zip archivu: ----------------------------------------
 
-## TO DO: Až bude her víc, tak bude potøeba 
+## TO DO: 
+# Až bude her víc, tak bude potøeba upravit kod tak,
+# aby vybral všechny relevantní soubory (Q1, Q2, PGG, EMAIL, BONUS) a
+# všechny je spojil do jednoho dataframu, 
+# resp. možná nechal bokem PGG, ale jinak to spojil.
 
-bonus = unz(archive, files$Name[2]) %>% read_csv()
+bonus = unz(archive, files$Name[2]) %>% read_csv() %>% rename(player = id, celkem = bonus)
 bonus
 
-emaily = unz(archive, files$Name[3]) %>% read_csv()
+emaily = unz(archive, files$Name[3]) %>% read_csv() %>% rename(email = value)
 emaily
 
 dfPGG = unz(archive, files$Name[5]) %>% read_csv()
@@ -51,4 +55,14 @@ dfQ2 = unz(archive, files$Name[7]) %>% read_csv()
 dfQ2
 
 
+# ## Spojení dat ----------------------------------------------------------
 
+## Tohle jsou asi data, se kterými budete pracovat nejvíc --
+# charakteristiky respondentù a jak ovlivòují celkový výsledek
+vysledek = left_join(bonus, emaily) %>% left_join(dfQ1) %>% left_join(dfQ2, by = c("player", "session"))
+vysledek
+
+## Na pøehled vývoje hry asi bude staèit dfPGG, ale kdyby to bylo potøeba spojit s kontextovými dat,
+# tak tady je to všechno spojené
+celkova = left_join(dfPGG, vysledek, by = c("player", "session"))
+celkova

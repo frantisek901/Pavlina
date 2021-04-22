@@ -2,7 +2,14 @@ Commands for GitBash
 
 cd d:/owncloud2/nodegame-v6.2.4/games_available
 
-cd d/owncloud2/\!\!\!Projekty/\!Pavlina
-
+Sekvence, jak v GitBash rozjet Git a sdílet ho na GitHubu:
+ cd d/owncloud2/\!\!\!Projekty/\!Pavlina
  git init -b main
+ git add .
+ git commit -m "Starting repository..."
+ git remote add origin https://github.com/frantisek901/Pavlina.git
+ git remote -v
+ git diff   // Pro opuštění je nutné napsat 'q' jako Quit...
+ git push origin main
+
  
