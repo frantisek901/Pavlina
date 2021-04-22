@@ -1,0 +1,121 @@
+---
+title: "Replikace výzkumu"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r Načtení dat z ČSDA}
+library(readxl)
+library(lubridate)
+library(tibble)
+library(forcats)
+library(haven)
+library(foreign)
+library(tidyverse)
+library(sjmisc)
+library(dplyr)
+#pro jistotu jsem si načetla různé knihovny
+
+## Najdeme názvy souborů
+archive = "CSDA00057 (3).zip"
+files = unzip(archive, list = T) %>% filter(Length > 0) 
+View(files)
+
+## Samotné načtení
+moje_data = unz(archive, files$Name[1]) %>% read_sav() 
+
+# spotreba_csda <- read_sav("C:/Users/micha/AppData/Local/Temp/CSDA00057_F1_WIvhXp")
+
+
+# moje_data <- factor(spotreba_csda)
+# 
+# is.factor(moje_data)
+
+view(moje_data)
+
+```
+
+
+
+
+
+
+```{r Úprava dat}
+data_spotreba <- select(moje_data, z1, z2, z3, z4, z6, z7, z9, z10, x9, a67, a1, a2, a4, a8, a74) 
+glimpse(data_spotreba)
+skimr::skim(data_spotreba)
+
+#právě jsem si vybrala jenom proměnné, které se mi hodí analyzovat (15 variables)
+
+```
+
+```{r}
+names(data_spotreba) = c("pohlaví", "věk", "vzdělání", "zaměstnání hlavy rodiny", "velikost domácnosti", "počet dětí nad 18 let", "měsiční příjem domácnosti", "velikost místa bydliště", "měsíční příjem na osobu v domácnosti", "příjmy naší rodiny rostou pomaleji než ceny potravin", "CIL stravujete se celkově zdravěji", "CIL omezujete kalorickou hodnotu stravy", "CIL vybíráte si kvalitnější druhy potravin", "CIL omezujete spotřebu tuku", "CIL na jidle nešetřím, šetřím jinde")
+view(data_spotreba)
+
+# Tady si poraďte s věkem
+
+df = data_spotreba %>% 
+  mutate(across(everything(),  .fns = as_factor)) %>% 
+  mutate(across(starts_with("CIL "), .fns = as.character))  %>% 
+  mutate(across(starts_with("CIL "),
+                .fns =  ~recode(., ano = 1, ne = 0, nevi = -1,
+                                souhlasi = 1, nesouhlasi = 0))) 
+df$`CIL omezujete spotřebu tuku`
+names(df) = c("pohlaví", "věk", "vzdělání", "zaměstnání hlavy rodiny", "velikost domácnosti", "počet dětí nad 18 let", "měsiční příjem domácnosti", "velikost místa bydliště", "měsíční příjem na osobu v domácnosti", "příjmy naší rodiny rostou pomaleji než ceny potravin", "stravujete se celkově zdravěji", "omezujete kalorickou hodnotu stravy", "vybíráte si kvalitnější druhy potravin", "omezujete spotřebu tuku", "na jidle nešetřím, šetřím jinde")
+glimpse(df)
+
+
+# pohlaví <- factor(data_spotreba$pohlaví)
+# věk <- factor("věk")
+# vzdělání<- factor("vzdělání")
+# zaměstnání<- factor("zaměstnání hlavy rodiny")
+# velikost_domácnosti<- factor("velikost domácnosti")
+# počet_dospělých_dětí <- factor("počet dětí nad 18 let")
+# měsiční_příjem_domácnosti<- factor("měsiční příjem domácnosti")
+# velikost_místa_bydliště<- factor("velikost místa bydliště")
+# měsíční_příjem_na_osobu_v_domácnosti<- factor("měsíční příjem na osobu v domácnosti")
+# příjmy_menší_než_ceny <- factor("příjmy naší rodiny rostou pomaleji než ceny potravin")
+# strava_zdravěji<- factor("stravujete se celkově zdravěji")
+# omezujete_kalorie<- factor("omezujete kalorickou hodnotu stravy")
+# kvalitní_potraviny <- factor("vybíráte si kvalitnější druhy potravin",)
+# omezená_spotřeba_tuku<- factor("omezujete spotřebu tuku")
+# nešetřím_na_jídle<- factor("na jidle nešetřím, šetřím jinde")
+
+
+class(df)
+
+#přejmenovala jsem si proměnné podle sebe
+#pokusila se z nich udělat factor, ale vlastně nevím proč
+
+
+# strava_zdravěji %>% group_by(pohlaví)  %>% summarize(mean_věk = mean(věk))      
+
+```
+
+
+```{r logistická regrese}
+m1 = glm(`stravujete se celkově zdravěji` ~ pohlaví, family = "binomial", 
+         data = (df %>% filter(`stravujete se celkově zdravěji`> -1)))
+summary(m1)
+m2 = glm(`stravujete se celkově zdravěji` ~ pohlaví + vzdělání, family = "binomial", 
+         data = (df %>% filter(`stravujete se celkově zdravěji`> -1)))
+summary(m2)
+m3 = glm(`stravujete se celkově zdravěji` ~ pohlaví * vzdělání, family = "binomial", 
+         data = (df %>% filter(`stravujete se celkově zdravěji`> -1)))
+summary(m3)
+m4 = glm(`stravujete se celkově zdravěji` ~ pohlaví + vzdělání + `velikost domácnosti`,
+         family = "binomial", 
+         data = (df %>% filter(`stravujete se celkově zdravěji`> -1) %>%  
+                   mutate(`velikost domácnosti` = relevel(`velikost domácnosti`, ref = 2))))
+# ZJak změnit kategorii, kterou chcete kontrastovat: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+summary(m4)
+
+```
+
+
