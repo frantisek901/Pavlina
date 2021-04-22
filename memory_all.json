@@ -1,0 +1,2080 @@
+[{
+    "time": 2222,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922690917,
+    "session": "room000005"
+}, {
+    "time": 5381,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922693091,
+    "session": "room000005"
+}, {
+    "time": 7111,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922694758,
+    "session": "room000005"
+}, {
+    "time": 9018,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922696420,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "forms": {
+        "coinsEveryRound": {
+            "id": "coinsEveryRound",
+            "choice": "0",
+            "time": 3611,
+            "nClicks": 1,
+            "order": [
+                0,
+                2,
+                3,
+                1
+            ],
+            "value": "20",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMaxi": {
+            "id": "coinsMaxi",
+            "choice": "0",
+            "time": 4911,
+            "nClicks": 1,
+            "order": [
+                1,
+                0,
+                3,
+                2
+            ],
+            "value": "40",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMini": {
+            "id": "coinsMini",
+            "choice": "0",
+            "time": 6456,
+            "nClicks": 1,
+            "order": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "value": "10",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsOthers": {
+            "id": "coinsOthers",
+            "choice": "0",
+            "time": 8063,
+            "nClicks": 1,
+            "order": [
+                0,
+                1,
+                3,
+                2
+            ],
+            "value": "30",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment1": {
+            "id": "lowestPayment1",
+            "choice": "0",
+            "time": 10568,
+            "nClicks": 1,
+            "order": [
+                1,
+                3,
+                2,
+                0
+            ],
+            "value": "15",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment2": {
+            "id": "lowestPayment2",
+            "choice": "0",
+            "time": 11471,
+            "nClicks": 1,
+            "order": [
+                1,
+                2,
+                3,
+                0
+            ],
+            "value": "35",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        }
+    },
+    "missValues": [],
+    "id": "quiz",
+    "isCorrect": true,
+    "time": 12648,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922709831,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "forms": {
+        "coinsEveryRound": {
+            "id": "coinsEveryRound",
+            "choice": "0",
+            "time": 26540,
+            "nClicks": 1,
+            "order": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "value": "20",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMaxi": {
+            "id": "coinsMaxi",
+            "choice": "0",
+            "time": 28139,
+            "nClicks": 1,
+            "order": [
+                2,
+                3,
+                1,
+                0
+            ],
+            "value": "40",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMini": {
+            "id": "coinsMini",
+            "choice": "0",
+            "time": 38051,
+            "nClicks": 1,
+            "order": [
+                3,
+                2,
+                1,
+                0
+            ],
+            "value": "10",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsOthers": {
+            "id": "coinsOthers",
+            "choice": "0",
+            "time": 39139,
+            "nClicks": 1,
+            "order": [
+                3,
+                1,
+                2,
+                0
+            ],
+            "value": "30",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment1": {
+            "id": "lowestPayment1",
+            "choice": "0",
+            "time": 42165,
+            "nClicks": 1,
+            "order": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "value": "15",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment2": {
+            "id": "lowestPayment2",
+            "choice": "0",
+            "time": 43299,
+            "nClicks": 1,
+            "order": [
+                1,
+                3,
+                0,
+                2
+            ],
+            "value": "35",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        }
+    },
+    "missValues": [],
+    "id": "quiz",
+    "isCorrect": true,
+    "time": 45547,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922743245,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "forms": {
+        "coinsEveryRound": {
+            "id": "coinsEveryRound",
+            "choice": "0",
+            "time": 50686,
+            "nClicks": 1,
+            "order": [
+                3,
+                1,
+                0,
+                2
+            ],
+            "value": "20",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMaxi": {
+            "id": "coinsMaxi",
+            "choice": "0",
+            "time": 52286,
+            "nClicks": 1,
+            "order": [
+                0,
+                2,
+                3,
+                1
+            ],
+            "value": "40",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMini": {
+            "id": "coinsMini",
+            "choice": "0",
+            "time": 59334,
+            "nClicks": 1,
+            "order": [
+                2,
+                0,
+                3,
+                1
+            ],
+            "value": "10",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsOthers": {
+            "id": "coinsOthers",
+            "choice": "0",
+            "time": 60182,
+            "nClicks": 1,
+            "order": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "value": "30",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment1": {
+            "id": "lowestPayment1",
+            "choice": "0",
+            "time": 62678,
+            "nClicks": 1,
+            "order": [
+                2,
+                0,
+                1,
+                3
+            ],
+            "value": "15",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment2": {
+            "id": "lowestPayment2",
+            "choice": "0",
+            "time": 64103,
+            "nClicks": 1,
+            "order": [
+                0,
+                3,
+                2,
+                1
+            ],
+            "value": "35",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        }
+    },
+    "missValues": [],
+    "id": "quiz",
+    "isCorrect": true,
+    "time": 65246,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922762933,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "forms": {
+        "coinsEveryRound": {
+            "id": "coinsEveryRound",
+            "choice": "0",
+            "time": 79272,
+            "nClicks": 1,
+            "order": [
+                3,
+                2,
+                1,
+                0
+            ],
+            "value": "20",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMaxi": {
+            "id": "coinsMaxi",
+            "choice": "0",
+            "time": 80410,
+            "nClicks": 1,
+            "order": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "value": "40",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsMini": {
+            "id": "coinsMini",
+            "choice": "0",
+            "time": 82947,
+            "nClicks": 1,
+            "order": [
+                1,
+                0,
+                3,
+                2
+            ],
+            "value": "10",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "coinsOthers": {
+            "id": "coinsOthers",
+            "choice": "0",
+            "time": 84140,
+            "nClicks": 1,
+            "order": [
+                1,
+                2,
+                3,
+                0
+            ],
+            "value": "30",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment1": {
+            "id": "lowestPayment1",
+            "choice": "0",
+            "time": 90467,
+            "nClicks": 2,
+            "order": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "value": "15",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        },
+        "lowestPayment2": {
+            "id": "lowestPayment2",
+            "choice": "0",
+            "time": 91451,
+            "nClicks": 2,
+            "order": [
+                3,
+                2,
+                0,
+                1
+            ],
+            "value": "35",
+            "isCorrect": true,
+            "attempts": [
+                "0"
+            ]
+        }
+    },
+    "missValues": [],
+    "id": "quiz",
+    "isCorrect": true,
+    "time": 92804,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922790513,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "forms": {
+        "znajiSe": {
+            "id": "znajiSe",
+            "choice": "5",
+            "time": 6898,
+            "nClicks": 1,
+            "value": "6",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "blizkost": {
+            "id": "blizkost",
+            "choice": "4",
+            "time": 7577,
+            "nClicks": 1,
+            "value": "5",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeKam": {
+            "id": "kooperujeKam",
+            "choice": "2",
+            "time": 8385,
+            "nClicks": 1,
+            "value": "3",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeCiz": {
+            "id": "kooperujeCiz",
+            "choice": "1",
+            "time": 8993,
+            "nClicks": 1,
+            "value": "2",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 9946,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922801050,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "forms": {
+        "znajiSe": {
+            "id": "znajiSe",
+            "choice": "5",
+            "time": 10222,
+            "nClicks": 1,
+            "value": "6",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "blizkost": {
+            "id": "blizkost",
+            "choice": "4",
+            "time": 10958,
+            "nClicks": 1,
+            "value": "5",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeKam": {
+            "id": "kooperujeKam",
+            "choice": "3",
+            "time": 11732,
+            "nClicks": 1,
+            "value": "4",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeCiz": {
+            "id": "kooperujeCiz",
+            "choice": "1",
+            "time": 12436,
+            "nClicks": 1,
+            "value": "2",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 13353,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922806054,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "forms": {
+        "znajiSe": {
+            "id": "znajiSe",
+            "choice": "5",
+            "time": 15036,
+            "nClicks": 1,
+            "value": "6",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "blizkost": {
+            "id": "blizkost",
+            "choice": "4",
+            "time": 15659,
+            "nClicks": 1,
+            "value": "5",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeKam": {
+            "id": "kooperujeKam",
+            "choice": "2",
+            "time": 16275,
+            "nClicks": 1,
+            "value": "3",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeCiz": {
+            "id": "kooperujeCiz",
+            "choice": "1",
+            "time": 17099,
+            "nClicks": 1,
+            "value": "2",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 18068,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922810784,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "forms": {
+        "znajiSe": {
+            "id": "znajiSe",
+            "choice": "5",
+            "time": 20021,
+            "nClicks": 1,
+            "value": "6",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "blizkost": {
+            "id": "blizkost",
+            "choice": "4",
+            "time": 20661,
+            "nClicks": 1,
+            "value": "5",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeKam": {
+            "id": "kooperujeKam",
+            "choice": "3",
+            "time": 21333,
+            "nClicks": 1,
+            "value": "4",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "kooperujeCiz": {
+            "id": "kooperujeCiz",
+            "choice": "2",
+            "time": 22285,
+            "nClicks": 1,
+            "value": "3",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 23741,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922816450,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 8163,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922825934,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 10916,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922829592,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 14246,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922832912,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 17615,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618922836456,
+    "session": "room000005"
+}, {
+    "time": 10574,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1618922847934,
+    "session": "room000005"
+}, {
+    "time": 10889,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1618922849828,
+    "session": "room000005"
+}, {
+    "time": 12687,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1618922851550,
+    "session": "room000005"
+}, {
+    "time": 14320,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1618922853249,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 31808,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1618922886484,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 30823,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1618922886488,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 30818,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1618922886489,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 32593,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1618922888273,
+    "session": "room000005"
+}, {
+    "time": 4444,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1618922896161,
+    "session": "room000005"
+}, {
+    "time": 6204,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1618922898899,
+    "session": "room000005"
+}, {
+    "time": 7874,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1618922900599,
+    "session": "room000005"
+}, {
+    "time": 8977,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1618922902778,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16522,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1618922920390,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15874,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1618922929670,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15869,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1618922929672,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 15864,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1618922929673,
+    "session": "room000005"
+}, {
+    "time": 30741,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1618922964040,
+    "session": "room000005"
+}, {
+    "time": 30996,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1618922966700,
+    "session": "room000005"
+}, {
+    "time": 30990,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1618922966703,
+    "session": "room000005"
+}, {
+    "time": 30979,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1618922966711,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15990,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1618922984690,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16004,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1618922985688,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 15998,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1618922985689,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15996,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1618922985692,
+    "session": "room000005"
+}, {
+    "time": 30966,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1618923017662,
+    "session": "room000005"
+}, {
+    "time": 30053,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1618923017748,
+    "session": "room000005"
+}, {
+    "time": 30958,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1618923018670,
+    "session": "room000005"
+}, {
+    "time": 30945,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1618923018672,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15256,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1618923037678,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15969,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1618923039685,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15975,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1618923039689,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 15976,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1618923039694,
+    "session": "room000005"
+}, {
+    "time": 30961,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1618923071689,
+    "session": "room000005"
+}, {
+    "time": 30854,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1618923073684,
+    "session": "room000005"
+}, {
+    "time": 30762,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1618923073687,
+    "session": "room000005"
+}, {
+    "time": 30676,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1618923073690,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15984,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1618923090682,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16073,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1618923091752,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 16071,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1618923091754,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16070,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1618923091755,
+    "session": "room000005"
+}, {
+    "time": 30975,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1618923123672,
+    "session": "room000005"
+}, {
+    "time": 30960,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1618923124684,
+    "session": "room000005"
+}, {
+    "time": 30934,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1618923124687,
+    "session": "room000005"
+}, {
+    "time": 30984,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1618923124691,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16003,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1618923142680,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16007,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1618923142682,
+    "session": "room000005"
+}, {
+    "contribution": 12,
+    "time": 16029,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1618923143720,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 16052,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1618923143744,
+    "session": "room000005"
+}, {
+    "time": 20465,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1618923166178,
+    "session": "room000005"
+}, {
+    "time": 21633,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1618923168344,
+    "session": "room000005"
+}, {
+    "time": 23412,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1618923170145,
+    "session": "room000005"
+}, {
+    "time": 24956,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1618923171708,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 4083,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1618923177810,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 7472,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1618923182147,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 13648,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1618923188313,
+    "session": "room000005"
+}, {
+    "contribution": 15,
+    "time": 15008,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1618923191693,
+    "session": "room000005"
+}, {
+    "time": 2594,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1618923194960,
+    "session": "room000005"
+}, {
+    "time": 3679,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1618923198547,
+    "session": "room000005"
+}, {
+    "time": 5152,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1618923200105,
+    "session": "room000005"
+}, {
+    "time": 6663,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1618923201577,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 3427,
+    "timeup": false,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1618923206355,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 6867,
+    "timeup": false,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1618923210537,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 11113,
+    "timeup": false,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1618923214776,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 12386,
+    "timeup": false,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1618923219105,
+    "session": "room000005"
+}, {
+    "time": 30948,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1618923250674,
+    "session": "room000005"
+}, {
+    "time": 31011,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1618923252725,
+    "session": "room000005"
+}, {
+    "time": 30995,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1618923252730,
+    "session": "room000005"
+}, {
+    "time": 30974,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1618923252862,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 15971,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1618923270688,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 15983,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1618923271687,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 15991,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1618923271706,
+    "session": "room000005"
+}, {
+    "contribution": 18,
+    "time": 15855,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1618923271741,
+    "session": "room000005"
+}, {
+    "time": 30917,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1618923303693,
+    "session": "room000005"
+}, {
+    "time": 30897,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1618923304683,
+    "session": "room000005"
+}, {
+    "time": 30866,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1618923304686,
+    "session": "room000005"
+}, {
+    "time": 30840,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 4,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1618923304687,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "communication": {
+            "id": "communication",
+            "choice": "2",
+            "time": 14151,
+            "nClicks": 1,
+            "value": "Nechci uvést",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "agreement": {
+            "id": "agreement",
+            "choice": "1",
+            "time": 14828,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real1": {
+            "id": "real1",
+            "choice": "2",
+            "time": 15428,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real2": {
+            "id": "real2",
+            "choice": "1",
+            "time": 16059,
+            "nClicks": 1,
+            "value": "Napůl",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "strategy": {
+            "id": "strategy",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0,
+            "value": "!?_null",
+            "isCorrect": false,
+            "attempts": []
+        }
+    },
+    "missValues": [
+        "strategy"
+    ],
+    "id": "questionnaire",
+    "isCorrect": false,
+    "_scrolledIntoView": true,
+    "freetext": "",
+    "time": 17252,
+    "timeup": true,
+    "done": true,
+    "player": "758526476099676",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618923322953,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "communication": {
+            "id": "communication",
+            "choice": "1",
+            "time": 18423,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "agreement": {
+            "id": "agreement",
+            "choice": "1",
+            "time": 18848,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real1": {
+            "id": "real1",
+            "choice": "2",
+            "time": 19464,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real2": {
+            "id": "real2",
+            "choice": "1",
+            "time": 20055,
+            "nClicks": 1,
+            "value": "Napůl",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "strategy": {
+            "id": "strategy",
+            "choice": "0",
+            "time": 21384,
+            "nClicks": 1,
+            "value": "random",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 22454,
+    "timeup": true,
+    "done": true,
+    "player": "145501967937323",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618923329162,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "communication": {
+            "id": "communication",
+            "choice": "2",
+            "time": 27701,
+            "nClicks": 1,
+            "value": "Nechci uvést",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "agreement": {
+            "id": "agreement",
+            "choice": "2",
+            "time": 28324,
+            "nClicks": 1,
+            "value": "Nechci uvést",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real1": {
+            "id": "real1",
+            "choice": "3",
+            "time": 29100,
+            "nClicks": 1,
+            "value": "Neměli jsme nic domluveno",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real2": {
+            "id": "real2",
+            "choice": "2",
+            "time": 29692,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "strategy": {
+            "id": "strategy",
+            "choice": "1",
+            "time": 30844,
+            "nClicks": 1,
+            "value": "egoist",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 32013,
+    "timeup": true,
+    "done": true,
+    "player": "949657951454526",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618923338730,
+    "session": "room000005"
+}, {
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "communication": {
+            "id": "communication",
+            "choice": "2",
+            "time": 34010,
+            "nClicks": 1,
+            "value": "Nechci uvést",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "agreement": {
+            "id": "agreement",
+            "choice": "1",
+            "time": 34555,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real1": {
+            "id": "real1",
+            "choice": "2",
+            "time": 35331,
+            "nClicks": 1,
+            "value": "Ne",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "real2": {
+            "id": "real2",
+            "choice": "1",
+            "time": 35970,
+            "nClicks": 1,
+            "value": "Napůl",
+            "isCorrect": true,
+            "attempts": []
+        },
+        "strategy": {
+            "id": "strategy",
+            "choice": "1",
+            "time": 37682,
+            "nClicks": 1,
+            "value": "egoist",
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "missValues": [],
+    "id": "questionnaire",
+    "isCorrect": true,
+    "freetext": "",
+    "time": 38618,
+    "timeup": true,
+    "done": true,
+    "player": "162001128325487",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1618923345346,
+    "session": "room000005"
+}]
