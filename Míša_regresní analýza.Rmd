@@ -31,70 +31,60 @@ moje_data = unz(archive, files$Name[1]) %>% read_sav()
 
 # spotreba_csda <- read_sav("C:/Users/micha/AppData/Local/Temp/CSDA00057_F1_WIvhXp")
 
-
-# moje_data <- factor(spotreba_csda)
-# 
-# is.factor(moje_data)
-
-view(moje_data)
+# view(moje_data)
 
 ```
-
-
-
-
 
 
 ```{r Úprava dat}
 data_spotreba <- select(moje_data, z1, z2, z3, z4, z6, z7, z9, z10, x9, a67, a1, a2, a4, a8, a74) 
 glimpse(data_spotreba)
-skimr::skim(data_spotreba)
+
 
 #právě jsem si vybrala jenom proměnné, které se mi hodí analyzovat (15 variables)
 
 ```
 
-```{r}
+```{r úprava dat2}
 names(data_spotreba) = c("pohlaví", "věk", "vzdělání", "zaměstnání hlavy rodiny", "velikost domácnosti", "počet dětí nad 18 let", "měsiční příjem domácnosti", "velikost místa bydliště", "měsíční příjem na osobu v domácnosti", "příjmy naší rodiny rostou pomaleji než ceny potravin", "CIL stravujete se celkově zdravěji", "CIL omezujete kalorickou hodnotu stravy", "CIL vybíráte si kvalitnější druhy potravin", "CIL omezujete spotřebu tuku", "CIL na jidle nešetřím, šetřím jinde")
-view(data_spotreba)
+# view(data_spotreba)
 
-# Tady si poraďte s věkem
+# Tady si poraďte s věkem...
 
 df = data_spotreba %>% 
   mutate(across(everything(),  .fns = as_factor)) %>% 
   mutate(across(starts_with("CIL "), .fns = as.character))  %>% 
   mutate(across(starts_with("CIL "),
                 .fns =  ~recode(., ano = 1, ne = 0, nevi = -1,
-                                souhlasi = 1, nesouhlasi = 0))) 
-df$`CIL omezujete spotřebu tuku`
+                                souhlasi = 1, nesouhlasi = 0))) %>%
+  mutate(věk = as.integer(věk))  
+df$věk2 = rec(df$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 50:59 = 55; 5, 60:max = 65")
+
+## Problém je, že je bordel v datech, nejsou tam jen kategorie věku 1--5 a pak věk 18+ jako číslo,
+# ale i čísla věku 6--17, která nedpovídají ani kategorii, ani by tam nikdo takový věk neměl mít.
+# Chvíli jsem myslel, že to mohou být děti, ale jako jedno z pozorování je tam třeba žena 
+# z jedočlenné domácnosti, údajně vyučená a věk 11 let...
+# těch divných pozorování je 246, tak bych je vyhodil a pokračoval. Nebo si zkuste opatřit ta samá dat jako
+# *.csv, protože tam asi dochází k problému převodu mezi *.sav a R. Další cesta je pořádně prostudovat 
+# dokumentaci k read_sav(), googlit stackOverflow, jestli už to někdo neřešil a dát třeba i dotaz na StackOverflow.
+# A zkoušet, až to konečně zaklapne...
+# No nevím, asi bude lepší těch 10% dat obětovat a jít dál, ne? :)
+
+## Zkuste si sama srovnat věk a věk2 a rozhodněte se co dál, já tady dál dělám to, že ty podivné případy vyhazuju,
+# věk2 uložím do věk a věk2 se zbavím. Rozhodněte se, co dál -- věk teď má 5 kategorií: 25, 35, 45, 55 a 65,
+# Myslím, že je lze už takhle použít v regresi, ale můžete si z nich udělat faktory, to už zvládnete :)
+df = df %>% filter(!is.na(věk2)) %>% mutate(věk = věk2) %>% select(-věk2)
+  
+
+# class(df$věk)  
+# levels(df$věk) 
+# df$věk
+  
+# df$`CIL omezujete spotřebu tuku`
 names(df) = c("pohlaví", "věk", "vzdělání", "zaměstnání hlavy rodiny", "velikost domácnosti", "počet dětí nad 18 let", "měsiční příjem domácnosti", "velikost místa bydliště", "měsíční příjem na osobu v domácnosti", "příjmy naší rodiny rostou pomaleji než ceny potravin", "stravujete se celkově zdravěji", "omezujete kalorickou hodnotu stravy", "vybíráte si kvalitnější druhy potravin", "omezujete spotřebu tuku", "na jidle nešetřím, šetřím jinde")
+
 glimpse(df)
-
-
-# pohlaví <- factor(data_spotreba$pohlaví)
-# věk <- factor("věk")
-# vzdělání<- factor("vzdělání")
-# zaměstnání<- factor("zaměstnání hlavy rodiny")
-# velikost_domácnosti<- factor("velikost domácnosti")
-# počet_dospělých_dětí <- factor("počet dětí nad 18 let")
-# měsiční_příjem_domácnosti<- factor("měsiční příjem domácnosti")
-# velikost_místa_bydliště<- factor("velikost místa bydliště")
-# měsíční_příjem_na_osobu_v_domácnosti<- factor("měsíční příjem na osobu v domácnosti")
-# příjmy_menší_než_ceny <- factor("příjmy naší rodiny rostou pomaleji než ceny potravin")
-# strava_zdravěji<- factor("stravujete se celkově zdravěji")
-# omezujete_kalorie<- factor("omezujete kalorickou hodnotu stravy")
-# kvalitní_potraviny <- factor("vybíráte si kvalitnější druhy potravin",)
-# omezená_spotřeba_tuku<- factor("omezujete spotřebu tuku")
-# nešetřím_na_jídle<- factor("na jidle nešetřím, šetřím jinde")
-
-
 class(df)
-
-#přejmenovala jsem si proměnné podle sebe
-#pokusila se z nich udělat factor, ale vlastně nevím proč
-
-
-# strava_zdravěji %>% group_by(pohlaví)  %>% summarize(mean_věk = mean(věk))      
 
 ```
 

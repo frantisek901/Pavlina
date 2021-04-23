@@ -17,7 +17,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(httr)
-
+library(ggplot2)
 
 
 # ## Stažení dat: ---------------------------------------------------------
@@ -33,36 +33,60 @@ files
 
 # ## Naètení dat ze *.zip archivu: ----------------------------------------
 
-## TO DO: 
-# Až bude her víc, tak bude potøeba upravit kod tak,
-# aby vybral všechny relevantní soubory (Q1, Q2, PGG, EMAIL, BONUS) a
-# všechny je spojil do jednoho dataframu, 
-# resp. možná nechal bokem PGG, ale jinak to spojil.
+## Øešení: 
+# Zatím jsem to vyøešil tak, že jsem vymazal na serveru Room000005 s tím jediným souborem,
+# teï má .zip jasnou strukturu: co místnost, to 6 soborù, jen 5 naèítám.
+# Proto jsem udìlal cyklus, který ty šestice zpracuje, nejdøív to probìhne na první šestici,
+# pak naskoèí cyklus, který 2. až poslední naète.
 
-bonus = unz(archive, files$Name[2]) %>% read_csv() %>% rename(player = id, celkem = bonus)
-bonus
+bonus = unz(archive, files$Name[1]) %>% read_csv() %>% rename(player = id, celkem = bonus) 
+emaily = unz(archive, files$Name[2]) %>% read_csv() %>% rename(email = value)
+PGG = unz(archive, files$Name[4]) %>% read_csv()
+Q1 = unz(archive, files$Name[5]) %>% read_csv()
+Q2 = unz(archive, files$Name[6]) %>% read_csv()
 
-emaily = unz(archive, files$Name[3]) %>% read_csv() %>% rename(email = value)
-emaily
+for (f in 1:(nrow(files)/6 - 1)) {
+  bonus = unz(archive, files$Name[f*6 + 1]) %>% read_csv() %>% 
+    rename(player = id, celkem = bonus) %>% rbind(bonus, .) 
 
-dfPGG = unz(archive, files$Name[5]) %>% read_csv()
-dfPGG
+  emaily = unz(archive, files$Name[f*6 + 2]) %>% read_csv() %>% 
+    rename(email = value) %>% rbind(emaily, .)
 
-dfQ1 = unz(archive, files$Name[6]) %>% read_csv()
-dfQ1
+  PGG = unz(archive, files$Name[f*6 + 4]) %>% read_csv() %>% rbind(PGG, .)
 
-dfQ2 = unz(archive, files$Name[7]) %>% read_csv()
-dfQ2
+  Q1 = unz(archive, files$Name[f*6 + 5]) %>% read_csv() %>% rbind(Q1, .)
+
+  Q2 = unz(archive, files$Name[f*6 + 6]) %>% read_csv() %>% rbind(Q2, .)
+}  
 
 
 # ## Spojení dat ----------------------------------------------------------
 
 ## Tohle jsou asi data, se kterými budete pracovat nejvíc --
 # charakteristiky respondentù a jak ovlivòují celkový výsledek
-vysledek = left_join(bonus, emaily) %>% left_join(dfQ1) %>% left_join(dfQ2, by = c("player", "session"))
-vysledek
+vysledek = left_join(bonus, emaily) %>% left_join(Q1) %>% left_join(Q2, by = c("player", "session")) %>% 
+  group_by(session) %>% mutate(soucetSkupiny = sum(celkem)) %>% 
+  select(names(vysledek)[1:4], soucetSkupiny, names(vysledek)[5:16])
+
+## A takto si mùžeme rovnou nechat vyjet poøadí hráèù!
+vyhodnoceni = vysledek %>% ungroup() %>% arrange(., desc(soucetSkupiny), desc(celkem)) %>% 
+  select(email, soucetSkupiny, celkem)
+vyhodnoceni
 
 ## Na pøehled vývoje hry asi bude staèit dfPGG, ale kdyby to bylo potøeba spojit s kontextovými dat,
 # tak tady je to všechno spojené
-celkova = left_join(dfPGG, vysledek, by = c("player", "session"))
+celkova = left_join(PGG, vysledek, by = c("player", "session"))
 celkova
+
+
+
+
+# ## Vývojový graf --------------------------------------------------------
+library(ggplot2)
+ggplot(PGG, aes(x = stage.round, y = contribution, col = as.factor(player))) +
+  geom_line()
+
+PGG %>% group_by(stage.round, session) %>% summarise(contribution = mean(contribution)) %>% 
+  ggplot(aes(x = stage.round, y = contribution, col = session)) +
+  geom_line()
+
