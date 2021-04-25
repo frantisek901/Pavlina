@@ -69,12 +69,6 @@ for (f in 1:(nrow(files)/5 - 1)) {
 
 # ## Spojení dat ----------------------------------------------------------
 
-## Kvùli úpravì dat si musím napsat rychle vlastní funkci,
-# je to rekódování 4 promìnných, proto je tam nìkolik kategorií...
-uprava = function(x) {
-  recode(x, `7-velmi dobøe` = "7", `7-velmi blízký` = "7", `7-velmi spolupracuji` ="7")
-}
-
 ## Tohle jsou asi data, se kterými budete pracovat nejvíc --
 # charakteristiky respondentù a jak ovlivòují celkový výsledek
 vysledek = left_join(bonus, emaily) %>% left_join(Q1) %>% left_join(Q2, by = c("player", "session")) %>% 
@@ -110,6 +104,11 @@ KA1_spojeno = left_join(KA1_pgg, KA1_kontext, by = c("player", "session"))
 
 # Uložení dat
 save(KA1_kontext, KA1_pgg, KA1_spojeno, file = "KA1_vse.RData")
+load(file = "KA1_vse.RData")
+
+# Naètení dat z GitHubu
+GET("https://github.com/frantisek901/Pavlina/raw/main/KA1_vse.RData", 
+    write_disk("KA1_vse.RData", overwrite = T))
 load(file = "KA1_vse.RData")
 
 
