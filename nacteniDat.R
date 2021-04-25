@@ -94,10 +94,23 @@ vyhodnoceni = vysledek %>% ungroup() %>% arrange(., desc(soucetSkupiny), desc(ce
   select(email, soucetSkupiny, celkem) #%>% filter(!str_detect(email, "fake@"))
 vyhodnoceni
 
-## Na pøehled vývoje hry asi bude staèit dfPGG, ale kdyby to bylo potøeba spojit s kontextovými dat,
+## Na pøehled vývoje hry asi bude staèit PGG, ale kdyby to bylo potøeba spojit s kontextovými dat,
 # tak tady je to všechno spojené
 celkova = left_join(PGG, vysledek, by = c("player", "session"))
 celkova
+
+
+
+# ## Pøíprava dat na použití v kurzu KA1 ----------------------------------
+
+# Vytvoøení dat
+KA1_kontext = vysledek %>% select(-email)
+KA1_pgg = PGG
+KA1_spojeno = left_join(KA1_pgg, KA1_kontext, by = c("player", "session"))
+
+# Uložení dat
+save(KA1_kontext, KA1_pgg, KA1_spojeno, file = "KA1_vse.RData")
+load(file = "KA1_vse.RData")
 
 
 
