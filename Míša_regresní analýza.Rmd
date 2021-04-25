@@ -51,14 +51,14 @@ names(data_spotreba) = c("pohlaví", "věk", "vzdělání", "zaměstnání hlavy
 
 # Tady si poraďte s věkem...
 
-df = data_spotreba %>% 
+dfx = data_spotreba %>% 
   mutate(across(everything(),  .fns = as_factor)) %>% 
   mutate(across(starts_with("CIL "), .fns = as.character))  %>% 
   mutate(across(starts_with("CIL "),
                 .fns =  ~recode(., ano = 1, ne = 0, nevi = -1,
                                 souhlasi = 1, nesouhlasi = 0))) %>%
   mutate(věk = as.integer(věk))  
-df$věk2 = rec(df$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 50:59 = 55; 5, 60:max = 65")
+dfx$věk2 = rec(dfx$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 50:59 = 55; 5, 60:max = 65")
 
 ## Problém je, že je bordel v datech, nejsou tam jen kategorie věku 1--5 a pak věk 18+ jako číslo,
 # ale i čísla věku 6--17, která nedpovídají ani kategorii, ani by tam nikdo takový věk neměl mít.
@@ -73,7 +73,7 @@ df$věk2 = rec(df$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 5
 ## Zkuste si sama srovnat věk a věk2 a rozhodněte se co dál, já tady dál dělám to, že ty podivné případy vyhazuju,
 # věk2 uložím do věk a věk2 se zbavím. Rozhodněte se, co dál -- věk teď má 5 kategorií: 25, 35, 45, 55 a 65,
 # Myslím, že je lze už takhle použít v regresi, ale můžete si z nich udělat faktory, to už zvládnete :)
-df = df %>% filter(!is.na(věk2)) %>% mutate(věk = věk2) %>% select(-věk2)
+df = dfx %>% filter(!is.na(věk2)) %>% mutate(věk = věk2) %>% select(-věk2)
   
 
 # class(df$věk)  
