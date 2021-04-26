@@ -32,7 +32,8 @@ GET('http://134.122.66.93/pgg/monitor/data/*',  ## Adresa naší hry
 archive = "aktualniData.zip"
 files = unzip(archive, list = T) %>% 
   filter(Length > 0) %>% filter(str_detect(Name, ".csv") )%>% 
-  filter(!str_detect(Name, "000015"))  # V místnosti 15 je jen jeden soubor -- vstupní dotazník, jinak nic, jde tedy o nedohranou hru
+  filter(!(str_detect(Name, "000015")|  # Pøíprava na další problematické místnosti, ano tøeba 000018...
+           str_detect(Name, "000018")))  # V místnosti 15 je jen jeden soubor -- vstupní dotazník, jinak nic, jde tedy o nedohranou hru
 files
 
 
