@@ -24,7 +24,7 @@ library(dplyr)
 ## Najdeme názvy souborů
 archive = "CSDA00057 (3).zip"
 files = unzip(archive, list = T) %>% filter(Length > 0) 
-View(files)
+# View(files)
 
 ## Samotné načtení
 moje_data = unz(archive, files$Name[1]) %>% read_sav() 
@@ -57,8 +57,8 @@ dfx = data_spotreba %>%
   mutate(across(starts_with("CIL "),
                 .fns =  ~recode(., ano = 1, ne = 0, nevi = -1,
                                 souhlasi = 1, nesouhlasi = 0))) %>%
-  mutate(věk = as.integer(věk))  
-dfx$věk2 = rec(dfx$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 50:59 = 55; 5, 60:max = 65")
+  mutate(věk = as.integer(věk),
+         věk2 = rec(věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4, 50:59 = 55; 5, 60:max = 65"))
 
 ## Problém je, že je bordel v datech, nejsou tam jen kategorie věku 1--5 a pak věk 18+ jako číslo,
 # ale i čísla věku 6--17, která nedpovídají ani kategorii, ani by tam nikdo takový věk neměl mít.
@@ -74,7 +74,8 @@ dfx$věk2 = rec(dfx$věk, rec = "1, 18:29 = 25; 2, 30:39 = 35; 3, 40:49 = 45; 4,
 # věk2 uložím do věk a věk2 se zbavím. Rozhodněte se, co dál -- věk teď má 5 kategorií: 25, 35, 45, 55 a 65,
 # Myslím, že je lze už takhle použít v regresi, ale můžete si z nich udělat faktory, to už zvládnete :)
 df = dfx %>% filter(!is.na(věk2)) %>% mutate(věk = věk2) %>% select(-věk2)
-  
+nrow(dfx)
+nrow(df)
 
 # class(df$věk)  
 # levels(df$věk) 
@@ -103,7 +104,7 @@ m4 = glm(`stravujete se celkově zdravěji` ~ pohlaví + vzdělání + `velikost
          family = "binomial", 
          data = (df %>% filter(`stravujete se celkově zdravěji`> -1) %>%  
                    mutate(`velikost domácnosti` = relevel(`velikost domácnosti`, ref = 2))))
-# ZJak změnit kategorii, kterou chcete kontrastovat: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Jak změnit kategorii, kterou chcete kontrastovat: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 summary(m4)
 
 ```
