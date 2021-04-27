@@ -131,17 +131,17 @@ ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
   stat_summary(fun = mean,   # Prùmìr skupiny za kolo
                fun.args = list(mult = 1), 
                geom = "line", 
-               size = 0.5, 
+               size = 1.5, 
                color = "#808080") +
   geom_line(data = (PGG %>% group_by(stage.round) %>% mutate(contribution = mean(contribution, na.rm = T))),
              aes(x = stage.round, y = contribution),
              color = "steelblue",
-             size = 2) +  # Prùmìr za celý turnaj
-  facet_wrap(vars(session), nrow = 2) +  # Rozdìlení do panelù podle skupin
+             size = 0.5) +  # Prùmìr za celý turnaj
+  facet_wrap(vars(session), nrow = 3) +  # Rozdìlení do panelù podle skupin
   guides(color = F) +
   labs(caption = "Vysvìtlení pro Pavlínu:
-  Tlustá modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
-  Tenká šedá èára ukazuje prùmìrnou investici za kolo v pøíslušné skupinì.
+  Tenká modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
+  Tlustá šedá èára ukazuje prùmìrnou investici za kolo v pøíslušné skupinì.
   Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
   K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
   Graf je rozdìlený do panelù podle skupin.") +
