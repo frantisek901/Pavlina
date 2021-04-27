@@ -125,3 +125,29 @@ PGG %>% group_by(stage.round, session) %>% summarise(contribution = mean(contrib
 PGG %>% group_by(stage.round) %>% summarise(contribution = mean(contribution)) %>% 
   ggplot(aes(x = stage.round, y = contribution)) +
   geom_line()
+
+ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
+  geom_jitter(col = "blue", alpha = 0.2, size = 2, width = 0, height = 0.3) +  # Individuální pozorování
+  stat_summary(fun = mean,   # Prùmìr skupiny za kolo
+               fun.args = list(mult = 1), 
+               geom = "line", 
+               size = 0.5, 
+               color = "#808080") +
+  geom_line(data = (PGG %>% group_by(stage.round) %>% mutate(contribution = mean(contribution, na.rm = T))),
+             aes(x = stage.round, y = contribution),
+             color = "steelblue",
+             size = 2) +  # Prùmìr za celý turnaj
+  facet_wrap(vars(session), nrow = 2) +  # Rozdìlení do panelù podle skupin
+  guides(color = F) +
+  labs(caption = "Vysvìtlení pro Pavlínu:
+  Tlustá modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
+  Tenká šedá èára ukazuje prùmìrnou investici za kolo v pøíslušné skupinì.
+  Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
+  K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
+  Graf je rozdìlený do panelù podle skupin.") +
+  theme_minimal() +
+  scale_x_continuous(breaks = seq(0, 10, 2)) +
+  scale_y_continuous(breaks = seq(0, 20, 2))
+
+
+
