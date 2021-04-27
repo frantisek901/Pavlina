@@ -151,3 +151,21 @@ ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
 
 
 
+ggplot(PGG, aes(x = stage.round, y = contribution, group = stage.round)) +
+  geom_jitter(col = "blue", alpha = 0.2, size = 2, width = 0.15, height = 0.35) +  # Individuální pozorování
+  geom_line(data = (PGG %>% group_by(stage.round) %>% mutate(contribution = mean(contribution, na.rm = T))),
+            aes(x = stage.round, y = contribution, group = player),
+            color = "steelblue",
+            size = 1.5) +  # Prùmìr za celý turnaj
+  geom_boxplot(alpha = 0.1, fill = "steelblue", col = "steelblue") +
+  guides(color = F) +
+  labs(caption = "Vysvìtlení pro Pavlínu:
+  Tlustá modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
+  Modré box-ploty ukazují celkovou distribuci investic v jednotlivých kolech.
+  Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
+  K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
+  Graf je rozdìlený do panelù podle skupin.") +
+  theme_minimal() +
+  scale_x_continuous(breaks = seq(0, 10, 2)) +
+  scale_y_continuous(breaks = seq(0, 20, 2))
+
