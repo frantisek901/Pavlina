@@ -115,8 +115,6 @@ load(file = "KA1_vse.RData")
 
 
 # ## Vývojový graf --------------------------------------------------------
-ggplot(PGG, aes(x = stage.round, y = contribution, col = as.factor(player))) +
-  geom_line()
 
 PGG %>% group_by(stage.round, session) %>% summarise(contribution = mean(contribution)) %>% 
   ggplot(aes(x = stage.round, y = contribution, col = session)) +
