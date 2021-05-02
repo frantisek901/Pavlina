@@ -145,14 +145,14 @@ ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
              aes(x = stage.round, y = contribution),
              color = "steelblue",
              size = 0.5) +  # Prùmìr za celý turnaj
-  facet_wrap(vars(date), nrow = 3) +  # Rozdìlení do panelù podle skupin
+  facet_wrap(vars(date %>% as.character()), nrow = 3) +  # Rozdìlení do panelù podle skupin
   guides(color = F) +
   labs(caption = "Vysvìtlivky:
   Tenká modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
   Tlustá šedá èára ukazuje prùmìrnou investici za kolo v pøíslušné skupinì.
   Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
   K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
-  Graf je rozdìlený do panelù podle skupin.") +
+  Graf je rozdìlený do panelù podle èasu, kdy skupina dohrála.") +
   theme_minimal() +
   scale_x_continuous(breaks = seq(0, 10, 2)) +
   scale_y_continuous(breaks = seq(0, 20, 2))
