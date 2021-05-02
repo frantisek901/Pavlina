@@ -103,14 +103,15 @@ vyhodnoceni
 celkova = left_join(PGG, vysledek, by = c("player", "session"))
 celkova
 
-
+## Ještì pøidáme datumy do PGG
+PGG = left_join(PGG, datumy)
 
 # ## Pøíprava dat na použití v kurzu KA1 ----------------------------------
 
 # Vytvoøení dat
 KA1_kontext = vysledek %>% select(-email)
 KA1_pgg = PGG
-KA1_spojeno = left_join(KA1_pgg, KA1_kontext, by = c("player", "session"))
+KA1_spojeno = left_join(KA1_pgg, (KA1_kontext %>% select(-date)), by = c("player", "session"))
 
 # Uložení dat
 save(KA1_kontext, KA1_pgg, KA1_spojeno, file = "KA1_vse.RData")
@@ -144,7 +145,7 @@ ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
              aes(x = stage.round, y = contribution),
              color = "steelblue",
              size = 0.5) +  # Prùmìr za celý turnaj
-  facet_wrap(vars(session), nrow = 3) +  # Rozdìlení do panelù podle skupin
+  facet_wrap(vars(date), nrow = 3) +  # Rozdìlení do panelù podle skupin
   guides(color = F) +
   labs(caption = "Vysvìtlivky:
   Tenká modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
