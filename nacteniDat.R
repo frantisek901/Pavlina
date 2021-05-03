@@ -19,6 +19,7 @@ library(stringr)
 library(httr)
 library(ggplot2)
 library(forcats)
+library(lubridate)
 
 
 
@@ -177,6 +178,54 @@ ggplot(PGG, aes(x = stage.round, y = contribution, group = stage.round)) +
   scale_x_continuous(breaks = seq(0, 10, 2)) +
   scale_y_continuous(breaks = seq(0, 20, 2))
 
+
+vysledek %>% mutate(date = as.Date(date)) %>%  group_by(date) %>% summarise(soucetSkupiny = mean(soucetSkupiny)/4) %>%  
+  ggplot(aes(x=date, y=soucetSkupiny)) +
+  geom_line() +
+  geom_jitter(data = vysledek %>% mutate(date = as.Date(date)), aes(x=date, y=celkem),
+              size = 5, alpha = 0.1, width = 0.2)
+
+vysledek %>% group_by(session, soucetSkupiny) %>% 
+  mutate(znajiSe = mean(znajiSe, na.rm = T), blizkost = mean(blizkost, na.rm = T)) %>%  
+  ggplot(aes(x=blizkost, y=soucetSkupiny)) +
+  facet_wrap(~communication) +
+  geom_jitter(size = 5, alpha = 0.3) +
+  geom_smooth(method = "lm")
+
+
+vysledek %>% group_by(session, soucetSkupiny) %>% 
+  mutate(znajiSe = mean(znajiSe, na.rm = T), 
+            blizkost = mean(blizkost, na.rm = T), 
+            kooperujeKam = mean(kooperujeKam, na.rm = T), 
+            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
+  ggplot(aes(x=znajiSe, y=soucetSkupiny)) +
+  facet_wrap(~communication) +
+  geom_jitter(size = 5, alpha = 0.3) +
+  geom_smooth(method = "lm")
+
+
+
+vysledek %>% group_by(session, soucetSkupiny) %>% 
+  mutate(znajiSe = mean(znajiSe, na.rm = T), 
+            blizkost = mean(blizkost, na.rm = T), 
+            kooperujeKam = mean(kooperujeKam, na.rm = T), 
+            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
+  ggplot(aes(x=kooperujeKam, y=soucetSkupiny)) +
+  facet_wrap(~communication) +
+  geom_jitter(size = 5, alpha = 0.3) +
+  geom_smooth(method = "lm")
+
+
+
+vysledek %>% group_by(session, soucetSkupiny) %>% 
+  mutate(znajiSe = mean(znajiSe, na.rm = T), 
+            blizkost = mean(blizkost, na.rm = T), 
+            kooperujeKam = mean(kooperujeKam, na.rm = T), 
+            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
+  ggplot(aes(x=kooperujeCiz, y=soucetSkupiny)) +
+  facet_wrap(~communication) +
+  geom_jitter(size = 5, alpha = 0.3) +
+  geom_smooth(method = "lm")
 
 
 # ## Odmìny ---------------------------------------------------------------
