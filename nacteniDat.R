@@ -107,6 +107,14 @@ celkova
 ## Ještì pøidáme datumy do PGG
 PGG = left_join(PGG, datumy)
 
+
+
+# ## Uložení dat ----------------------------------------------------------
+
+save(vysledek, PGG, celkova, file = "vsechnaCistaData.RData")
+
+
+
 # ## Pøíprava dat na použití v kurzu KA1 ----------------------------------
 
 # Vytvoøení dat
@@ -123,138 +131,3 @@ GET("https://github.com/frantisek901/Pavlina/raw/main/KA1_vse.RData",
     write_disk("KA1_vse.RData", overwrite = T))
 load(file = "KA1_vse.RData")
 
-
-
-# ## Vývojový graf --------------------------------------------------------
-
-PGG %>% group_by(stage.round, session) %>% summarise(contribution = mean(contribution)) %>% 
-  ggplot(aes(x = stage.round, y = contribution, col = session)) +
-  geom_line()
-
-PGG %>% group_by(stage.round) %>% summarise(contribution = mean(contribution)) %>% 
-  ggplot(aes(x = stage.round, y = contribution)) +
-  geom_line()
-
-ggplot(PGG, aes(x = stage.round, y = contribution, group = session)) +
-  geom_jitter(col = "blue", alpha = 0.2, size = 2, width = 0, height = 0.3) +  # Individuální pozorování
-  stat_summary(fun = mean,   # Prùmìr skupiny za kolo
-               fun.args = list(mult = 1), 
-               geom = "line", 
-               size = 1.5, 
-               color = "#808080") +
-  geom_line(data = (PGG %>% group_by(stage.round) %>% mutate(contribution = mean(contribution, na.rm = T))),
-             aes(x = stage.round, y = contribution),
-             color = "steelblue",
-             size = 0.5) +  # Prùmìr za celý turnaj
-  facet_wrap(vars(date %>% as.character()), nrow = 3) +  # Rozdìlení do panelù podle skupin
-  guides(color = F) +
-  labs(caption = "Vysvìtlivky:
-  Tenká modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
-  Tlustá šedá èára ukazuje prùmìrnou investici za kolo v pøíslušné skupinì.
-  Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
-  K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
-  Graf je rozdìlený do panelù podle èasu, kdy skupina dohrála.") +
-  theme_minimal() +
-  scale_x_continuous(breaks = seq(0, 10, 2)) +
-  scale_y_continuous(breaks = seq(0, 20, 2))
-
-
-
-ggplot(PGG, aes(x = stage.round, y = contribution, group = stage.round)) +
-  geom_jitter(col = "blue", alpha = 0.2, size = 2, width = 0.15, height = 0.35) +  # Individuální pozorování
-  geom_line(data = (PGG %>% group_by(stage.round) %>% mutate(contribution = mean(contribution, na.rm = T))),
-            aes(x = stage.round, y = contribution, group = player),
-            color = "steelblue",
-            size = 1.5) +  # Prùmìr za celý turnaj
-  geom_boxplot(alpha = 0.1, fill = "steelblue", col = "steelblue") +
-  guides(color = F) +
-  labs(caption = "Vysvìtlivky:
-  Tlustá modrá èára ukazuje prùmìrnou investici do spoleèného úètu za kolo za celý turnaj.
-  Modré box-ploty ukazují celkovou distribuci investic v jednotlivých kolech.
-  Modré body ukazují investice jednotlivých hráèù, které byly celé èíslo v intervalu 0--20. 
-  K investicím hráèù je pøièten drobný šum (+/- 0.3), aby byl zøetelnìjší pøekryv hodnot.
-  Graf je rozdìlený do panelù podle skupin.") +
-  theme_minimal() +
-  scale_x_continuous(breaks = seq(0, 10, 2)) +
-  scale_y_continuous(breaks = seq(0, 20, 2))
-
-
-vysledek %>% mutate(date = as.Date(date)) %>%  group_by(date) %>% summarise(soucetSkupiny = mean(soucetSkupiny)/4) %>%  
-  ggplot(aes(x=date, y=soucetSkupiny)) +
-  geom_line() +
-  geom_jitter(data = vysledek %>% mutate(date = as.Date(date)), aes(x=date, y=celkem),
-              size = 5, alpha = 0.1, width = 0.2)
-
-vysledek %>% group_by(session, soucetSkupiny) %>% 
-  mutate(znajiSe = mean(znajiSe, na.rm = T), blizkost = mean(blizkost, na.rm = T)) %>%  
-  ggplot(aes(x=blizkost, y=soucetSkupiny)) +
-  facet_wrap(~communication) +
-  geom_jitter(size = 5, alpha = 0.3) +
-  geom_smooth(method = "lm")
-
-
-vysledek %>% group_by(session, soucetSkupiny) %>% 
-  mutate(znajiSe = mean(znajiSe, na.rm = T), 
-            blizkost = mean(blizkost, na.rm = T), 
-            kooperujeKam = mean(kooperujeKam, na.rm = T), 
-            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
-  ggplot(aes(x=znajiSe, y=soucetSkupiny)) +
-  facet_wrap(~communication) +
-  geom_jitter(size = 5, alpha = 0.3) +
-  geom_smooth(method = "lm")
-
-
-
-vysledek %>% group_by(session, soucetSkupiny) %>% 
-  mutate(znajiSe = mean(znajiSe, na.rm = T), 
-            blizkost = mean(blizkost, na.rm = T), 
-            kooperujeKam = mean(kooperujeKam, na.rm = T), 
-            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
-  ggplot(aes(x=kooperujeKam, y=soucetSkupiny)) +
-  facet_wrap(~communication) +
-  geom_jitter(size = 5, alpha = 0.3) +
-  geom_smooth(method = "lm")
-
-
-
-vysledek %>% group_by(session, soucetSkupiny) %>% 
-  mutate(znajiSe = mean(znajiSe, na.rm = T), 
-            blizkost = mean(blizkost, na.rm = T), 
-            kooperujeKam = mean(kooperujeKam, na.rm = T), 
-            kooperujeCiz = mean(kooperujeCiz, na.rm = T)) %>%  
-  ggplot(aes(x=kooperujeCiz, y=soucetSkupiny)) +
-  facet_wrap(~communication) +
-  geom_jitter(size = 5, alpha = 0.3) +
-  geom_smooth(method = "lm")
-
-
-# ## Odmìny ---------------------------------------------------------------
-
-## Nejdøív je potøeba ynovu vygenerovat vyhodnoceni:
-dfv = vysledek %>% ungroup() %>% arrange(., desc(soucetSkupiny), desc(celkem)) %>% 
-  select(email, session, soucetSkupiny, celkem) #%>% 
-  # group_by(email) %>% mutate(x = 1) %>% mutate(x = sum(x)) %>%   # Kontrola, jestli tam není nìjaký email dvakrát.
-  # arrange(., desc(x), email)  # OK, dopadlo to dobøe, každý mail tu jejen jednou!
-# vyhodnoceni
-
- 
-## Teï je potøeba vùbec nadefinovat vektor s odmìnami a doplnit 0 na délku `vyhodnoceni`:
-odmeny = c(seq(1000, 500, -100), 450, 400, 400, 350, rep(300,3), 250, rep(200, 5), 150,
-           150, rep(100, 6), rep(50, 16), 25, 25, rep(0, nrow(vyhodnoceni) - 45))
-# length((odmeny))
-# sum(odmeny)
-# SUPER! Sedí to!
-
-
-## Tak... Teï pøipojím `odmeny` jako další promìnnou do `vyhodnoceni` a 
-# rovnou každému vypoètu jeho odmìnu:
-# 1) seskupím je podle `soucetSkupiny` a podle `celkem`, tím mi pøirozenì vzniknou skupinky, 
-#    které si budou dìlit odmìny prùmìrem (pøi rovnosti bodù skupiny vytváøí `super-skupiny` 
-#    a uvnitø nich si dìlí odmìnu rovným dílem hráèi se stejným poètem bodù)
-# 2) uvnitø skupin daných rovnými body (jak skupin tak hráèù) spoèítám prùmìrné odmìny
-# 3) když budou body unikátní, zkrátka se replikuje hodnota, když ne, rozdìlí se
-# 4) využívám toho, že žebøíèek hráèù a jejich výsledkù už je seøazený sestupnì, od nejlepší skupiny 
-#    po nejhorší, a totéž s hráèi, když k tomu pak pøidám sestupnì seøazené odmìny, snadno to spoètu
-vyhodnoceni = cbind(dfv, 'odmena' = odmeny) %>% group_by(soucetSkupiny, celkem) %>% 
-  mutate(odmena = mean(odmena))
-vyhodnoceni
