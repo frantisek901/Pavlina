@@ -117,3 +117,30 @@ for (d in 1:nrow(dopisy2)) {
 ## Pro otestování adres ještì uložím adresy do Excelu a tam odtud to ruènì nakopíruju do øádku mailu:
 write_xlsx(dopisy2, "kontrolaV02.xlsx")
 write_xlsx(vyhodnoceni %>% ungroup() %>% select(email, odmena), "odmeny.xlsx")
+
+
+
+# ## Odeslání zprávy o poslání penìz: ---------------------------------
+
+library(emayili)
+library(dplyr)
+library(magrittr)
+
+for (d in 1:nrow(dopisy2)) {
+  email <- envelope() %>% 
+    from("kalvas@kss.zcu.cz") %>% 
+    to(dopisy2$email[d]) %>% 
+    subject(qp_encode("Vyhodnocení turnaje PGG (21.4.2021--2.5.2021): Druhý pokus o hromadné odeslání")) %>% 
+    text(qp_encode(dopisy2$dopis[d]))
+  
+  # print(email, details = T)
+  
+  smtp <- server(host = "smtp.zcu.cz",
+                 port = 465,
+                 username = "login",
+                 password = "pass")
+  
+  smtp(email, verbose = TRUE)  
+}
+
+
