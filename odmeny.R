@@ -14,6 +14,8 @@ rm(list = ls())
 
 ## Package
 library(dplyr)
+library(readr)
+library(readxl)
 library(writexl)
 
 ## Naètení dat
@@ -71,7 +73,10 @@ dopisy = vyhodnoceni %>%
              "nejprve Vám ještì jednou srdeènì dìkujeme za Vaší úèast v turnaji -- bez Vás by nebylo možné zkoumat ",
              "lidskou kooperaci, která byla pøedmìtem naší studie. ",
              "Dále Vám v e-mailu sdìlujeme Váš výsledek v turnaji a jaká odmìna Vám náleží. \n\n",
-             "Jelikož vaše skupina získala dohromady ", soucetSkupiny, " HK a Vy osobnì ",
+             "Toto je náš druhý pokus Vám poslat výsledky hromadnì, první se pøíliš nevydaøil. ",
+             "Pokud jste první e-mail s výsledky dostali, je tento bepøedmìtný -- nejsou zde nové informace, ",
+             "jen se ještì jednou snažíme obeslat úèastníky najednou.\n\n",
+             "Nyní k výsledkùm. Jelikož vaše skupina získala dohromady ", soucetSkupiny, " HK a Vy osobnì ",
              celkem, " HK, jste v celkovém poøadí ", umisteni, odmenit, "\n\n",
              "Pro zajímavost, maximálního možného výsledku 1600 HK za celou skupinu dosáhlo 6 skupin a ",
              "jejich èlenky a èlenové si tak rovným dílem rozdìlili odmìny za 1. až 24. místo ",
@@ -81,7 +86,9 @@ dopisy = vyhodnoceni %>%
   ) %>% ungroup %>% select(email, dopis) %>% filter(!is.na(email))
 dopisy
 
+poslat = read_csv2("prehled.csv") %>% select(email, dopisDorucen)
 
+dopisy2 = left_join(dopisy, poslat) %>% filter(!dopisDorucen)
 
 # ## Odeslání personalizovaných výsledkù: ---------------------------------
 
@@ -89,12 +96,12 @@ library(emayili)
 library(dplyr)
 library(magrittr)
 
-for (d in 1:nrow(dopisy)) {
+for (d in 1:nrow(dopisy2)) {
   email <- envelope() %>% 
     from("kalvas@kss.zcu.cz") %>% 
-    to(dopisy$email[13]) %>% 
+    to(dopisy2$email[d]) %>% 
     subject(qp_encode("Vyhodnocení turnaje PGG (21.4.2021--2.5.2021)")) %>% 
-    text(qp_encode(dopisy$dopis[13]))
+    text(qp_encode(dopisy2$dopis[d]))
   
   # print(email, details = T)
   
@@ -108,4 +115,4 @@ for (d in 1:nrow(dopisy)) {
 
 
 ## Pro otestování adres ještì uložím adresy do Excelu a tam odtud to ruènì nakopíruju do øádku mailu:
-write_xlsx(dopisy, "kontrola.xlsx")
+write_xlsx(dopisy2, "kontrolaV02.xlsx")
