@@ -126,8 +126,9 @@ write_xlsx(vyhodnoceni %>% ungroup() %>% select(email, odmena), "odmeny.xlsx")
 ## Konstrukce zprávy
 library(dplyr)
 library(readr)
+library(readxl)
 
-dopisy3 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
+dopisy3 = read_xlsx("prehled.xlsx") %>% select(email, ucet, castka, kdyPoslano) %>% 
   mutate(dnes = as.Date(kdyPoslano) == Sys.Date(),
          dopis = 
            paste0(
