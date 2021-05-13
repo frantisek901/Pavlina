@@ -1,0 +1,1014 @@
+Díky! Znamenám si číslo účtu. Rád bych Vám to během dneška poslal.
+
+S úctou,
+František
+
+
+
+Odměna za účast v turnaji FF ZČU: kooperace
+
+
+
+
+
+To:           estytotzauerova@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="39141ca1a2c2d151a3bb2438e233b"
+
+--39141ca1a2c2d151a3bb2438e233b
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1511 HK a Vy osobnÄ› 367.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 39. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 50 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--39141ca1a2c2d151a3bb2438e233b--
+Uploaded 1778 bytes... all done!
+250 2.0.0 Ok: queued as 6BE036D1
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<eli.fiserova22@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1783 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           eli.fiserova22@gmail.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1e321a3834202625e1b2b2e16271f23"
+
+--1e321a3834202625e1b2b2e16271f23
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1511 HK a Vy osobnÄ› 355.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 40. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 50 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1e321a3834202625e1b2b2e16271f23--
+Uploaded 1783 bytes... all done!
+250 2.0.0 Ok: queued as 735176D2
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<bety.szabo@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1765 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           bety.szabo@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1062e3f203416728103b1212fc4"
+
+--1062e3f203416728103b1212fc4
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1488 HK a Vy osobnÄ› 384 HK, jste v celkovĂ©m poĹ™adĂ­ na 41. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 50 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1062e3f203416728103b1212fc4--
+Uploaded 1765 bytes... all done!
+250 2.0.0 Ok: queued as 7DDCA6B2
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<kulhankova.stepanka@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1780 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           kulhankova.stepanka@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1b3f82b7132920e1822182a3f373f"
+
+--1b3f82b7132920e1822182a3f373f
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1488 HK a Vy osobnÄ› 371 HK, jste v celkovĂ©m poĹ™adĂ­ na 42. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 50 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1b3f82b7132920e1822182a3f373f--
+Uploaded 1780 bytes... all done!
+250 2.0.0 Ok: queued as 858856B6
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<barunovaku@icloud.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1766 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           barunovaku@icloud.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1319f2438b3029391d22993a3b1"
+
+--1319f2438b3029391d22993a3b1
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1488 HK a Vy osobnÄ› 367 HK, jste v celkovĂ©m poĹ™adĂ­ na 43. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 50 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1319f2438b3029391d22993a3b1--
+Uploaded 1766 bytes... all done!
+250 2.0.0 Ok: queued as 8C8856B7
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<E.LUKASMAREK@GMAIL.COM>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1773 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           E.LUKASMAREK@GMAIL.COM
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="252aa1030a3d1524151c22262d217"
+
+--252aa1030a3d1524151c22262d217
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1488 HK a Vy osobnÄ› 366 HK, jste v celkovĂ©m poĹ™adĂ­ na 44. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 25 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--252aa1030a3d1524151c22262d217--
+Uploaded 1773 bytes... all done!
+250 2.0.0 Ok: queued as 966656D7
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<sayfight@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1768 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           sayfight@gmail.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1e2339e23401c1634e247322fb1a"
+
+--1e2339e23401c1634e247322fb1a
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1405 HK a Vy osobnÄ› 397.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 45. mĂ­stÄ›, za coĹľ VĂˇm nĂˇleĹľĂ­ odmÄ›na 25 KÄŤ. PoĹˇlete nĂˇm prosĂ­m ÄŤĂ­slo ĂşÄŤtu, abychom VĂˇm mohli odmÄ›nu zaslat.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1e2339e23401c1634e247322fb1a--
+Uploaded 1768 bytes... all done!
+250 2.0.0 Ok: queued as 9FC9661C
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<nohev12609@drluotan.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1720 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           nohev12609@drluotan.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="3f93b1c20123f51c30a371d3a3738"
+
+--3f93b1c20123f51c30a371d3a3738
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1405 HK a Vy osobnÄ› 362.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 46. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--3f93b1c20123f51c30a371d3a3738--
+Uploaded 1720 bytes... all done!
+250 2.0.0 Ok: queued as A94116DB
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<hicix89632@cnxingye.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1714 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           hicix89632@cnxingye.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="3d2427272010f3819113524f131"
+
+--3d2427272010f3819113524f131
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1405 HK a Vy osobnÄ› 342.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 47. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--3d2427272010f3819113524f131--
+Uploaded 1714 bytes... all done!
+250 2.0.0 Ok: queued as B2E2B6DC
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<Nibbsy99@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1718 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           Nibbsy99@gmail.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1a3b2b102e122d22172a33f2111c16"
+
+--1a3b2b102e122d22172a33f2111c16
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1405 HK a Vy osobnÄ› 302.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 48. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1a3b2b102e122d22172a33f2111c16--
+Uploaded 1718 bytes... all done!
+250 2.0.0 Ok: queued as BC6BF6DE
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<lenkastepnickova299@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1723 bytes...Date:         Thu, 13 May 2021 05:46:23 GMT
+From:         kalvas@kss.zcu.cz
+To:           lenkastepnickova299@gmail.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="4c13242d211b1f352b3b35413128"
+
+--4c13242d211b1f352b3b35413128
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1341 HK a Vy osobnÄ› 369.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 49. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--4c13242d211b1f352b3b35413128--
+Uploaded 1723 bytes... all done!
+250 2.0.0 Ok: queued as C85CB6DF
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<Kubi99@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1707 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           Kubi99@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="535c5142f1832e24202d241f11c"
+
+--535c5142f1832e24202d241f11c
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1341 HK a Vy osobnÄ› 342.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 50. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--535c5142f1832e24202d241f11c--
+Uploaded 1707 bytes... all done!
+250 2.0.0 Ok: queued as D22A96E1
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<lenkastepnickova@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1717 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           lenkastepnickova@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="23f4035629dc401a402a3f34c11"
+
+--23f4035629dc401a402a3f34c11
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1341 HK a Vy osobnÄ› 322.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 51. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--23f4035629dc401a402a3f34c11--
+Uploaded 1717 bytes... all done!
+250 2.0.0 Ok: queued as DA4096D0
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<klarilin@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1709 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           klarilin@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="3aa3f2f32733029393f2113125b"
+
+--3aa3f2f32733029393f2113125b
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1341 HK a Vy osobnÄ› 306.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 52. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--3aa3f2f32733029393f2113125b--
+Uploaded 1709 bytes... all done!
+250 2.0.0 Ok: queued as E33D46E6
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<eva.tollinger@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1723 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           eva.tollinger@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="3e171d16351a4010341021b22e1129"
+
+--3e171d16351a4010341021b22e1129
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1339 HK a Vy osobnÄ› 351.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 53. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--3e171d16351a4010341021b22e1129--
+Uploaded 1723 bytes... all done!
+250 2.0.0 Ok: queued as EB8846E7
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<kucis198@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1715 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           kucis198@gmail.com
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="311b3c323b1f1693a1d213c3d232a"
+
+--311b3c323b1f1693a1d213c3d232a
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1339 HK a Vy osobnÄ› 328.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 55. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--311b3c323b1f1693a1d213c3d232a--
+Uploaded 1715 bytes... all done!
+250 2.0.0 Ok: queued as F2DFA6E8
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<kubik.kuc@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1722 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           kubik.kuc@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="33262b27c39381b2f3a343d2f35291e"
+
+--33262b27c39381b2f3a343d2f35291e
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1339 HK a Vy osobnÄ› 316.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 56. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--33262b27c39381b2f3a343d2f35291e--
+Uploaded 1722 bytes... all done!
+250 2.0.0 Ok: queued as 0ABA36EA
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<anysynkova@centrum.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1715 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           anysynkova@centrum.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1d2830d2611c1910393e3d38c143"
+
+--1d2830d2611c1910393e3d38c143
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1299 HK a Vy osobnÄ› 342.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 57. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1d2830d2611c1910393e3d38c143--
+Uploaded 1715 bytes... all done!
+250 2.0.0 Ok: queued as 11C756EC
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<tomas.sestak7@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1720 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           tomas.sestak7@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="19db3d1f123f3c392711a25371e25"
+
+--19db3d1f123f3c392711a25371e25
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1299 HK a Vy osobnÄ› 329.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 58. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--19db3d1f123f3c392711a25371e25--
+Uploaded 1720 bytes... all done!
+250 2.0.0 Ok: queued as 1B2496EF
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<martina.hal42@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1717 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           martina.hal42@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="222720291429201192531331a3ad"
+
+--222720291429201192531331a3ad
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1299 HK a Vy osobnÄ› 326.5 HK, jste v celkovĂ©m poĹ™adĂ­ na 59. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--222720291429201192531331a3ad--
+Uploaded 1717 bytes... all done!
+250 2.0.0 Ok: queued as 228746F0
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<harmady.pavel@centrum.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1722 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           harmady.pavel@centrum.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="10333a32122820811341e2a17a3d26"
+
+--10333a32122820811341e2a17a3d26
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1256 HK a Vy osobnÄ› 252 HK, jste v celkovĂ©m poĹ™adĂ­ na 64. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--10333a32122820811341e2a17a3d26--
+Uploaded 1722 bytes... all done!
+250 2.0.0 Ok: queued as 29B446F1
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<vojtim1@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1715 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           vojtim1@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="1315262621e211e3c2ca4011321f35"
+
+--1315262621e211e3c2ca4011321f35
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1220 HK a Vy osobnÄ› 410 HK, jste v celkovĂ©m poĹ™adĂ­ na 65. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--1315262621e211e3c2ca4011321f35--
+Uploaded 1715 bytes... all done!
+250 2.0.0 Ok: queued as 314A9637
+Connection #0 to host smtp.zcu.cz left intact
+Sending email to smtps://smtp.zcu.cz:465/.
+Found bundle for host smtp.zcu.cz: 0x2a1e22cdcf0 [serially]
+Re-using existing connection! (#0) with host smtp.zcu.cz
+Connected to smtp.zcu.cz (147.228.57.19) port 465 (#0)
+MAIL FROM:<kalvas@kss.zcu.cz>
+250 2.1.0 Ok
+RCPT TO:<terkamat@seznam.cz>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Uploaded 1715 bytes...Date:         Thu, 13 May 2021 05:46:24 GMT
+From:         kalvas@kss.zcu.cz
+To:           terkamat@seznam.cz
+Subject:      VyhodnocenĂ­ turnaje PGG (21.4.2021--2.5.2021): DruhĂ˝ pokus o hromadnĂ© odeslĂˇnĂ­
+X-Mailer:     {emayili}-0.4.10
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="201a2e2c3e103921373a331d36d"
+
+--201a2e2c3e103921373a331d36d
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+MilĂˇ ĂşÄŤastnice, milĂ˝ ĂşÄŤastnĂ­ku turnaje PGG,
+
+
+
+nejprve VĂˇm jeĹˇtÄ› jednou srdeÄŤnÄ› dÄ›kujeme za VaĹˇĂ­ ĂşÄŤast v turnaji -- bez VĂˇs by nebylo moĹľnĂ© zkoumat lidskou kooperaci, kterĂˇ byla pĹ™edmÄ›tem naĹˇĂ­ studie. DĂˇle VĂˇm v e-mailu sdÄ›lujeme VĂˇĹˇ vĂ˝sledek v turnaji a jakĂˇ odmÄ›na VĂˇm nĂˇleĹľĂ­. 
+
+Toto je nĂˇĹˇ druhĂ˝ pokus VĂˇm poslat vĂ˝sledky hromadnÄ›, prvnĂ­ se pĹ™Ă­liĹˇ nevydaĹ™il. Pokud jste prvnĂ­ e-mail s vĂ˝sledky dostali, je tento bepĹ™edmÄ›tnĂ˝ -- nejsou zde novĂ© informace, jen se jeĹˇtÄ› jednou snaĹľĂ­me obeslat ĂşÄŤastnĂ­ky najednou.
+
+NynĂ­ k vĂ˝sledkĹŻm. JelikoĹľ vaĹˇe skupina zĂ­skala dohromady 1220 HK a Vy osobnÄ› 210 HK, jste v celkovĂ©m poĹ™adĂ­ na 67. aĹľ 68. mĂ­stÄ›. Toto umĂ­stÄ›nĂ­ je, Bohu Ĺľel, bez finanÄŤnĂ­ odmÄ›ny.
+
+Pro zajĂ­mavost, maximĂˇlnĂ­ho moĹľnĂ©ho vĂ˝sledku 1600 HK za celou skupinu dosĂˇhlo 6 skupin a jejich ÄŤlenky a ÄŤlenovĂ© si tak rovnĂ˝m dĂ­lem rozdÄ›lili odmÄ›ny za 1. aĹľ 24. mĂ­sto (vĹˇichni shodnÄ› mÄ›li osobnĂ­ vĂ˝sledek 400 HK, jinak konec koncĹŻ nebylo moĹľnĂ© maxima dosĂˇhnout). NejvyĹˇĹˇĂ­ osobnĂ­ vĂ˝sledek v celĂ©m turnaji je 417,5 HK, ale ten znamenal 'jen' 29. mĂ­sto.
+
+
+
+S Ăşctou,
+FrantiĹˇek Kalvas a PavlĂ­na MĂˇchovĂˇ
+
+--201a2e2c3e103921373a331d36d--
+Uploaded 1715 bytes... all done!
+250 2.0.0 Ok: queued as 3B47B6F4
+Connection #0 to host smtp.zcu.cz left intact
+> 
