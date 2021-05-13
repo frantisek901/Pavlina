@@ -122,16 +122,33 @@ write_xlsx(vyhodnoceni %>% ungroup() %>% select(email, odmena), "odmeny.xlsx")
 
 # ## Odeslání zprávy o poslání penìz: ---------------------------------
 
+
+## Konstrukce zprávy
+library(dplyr)
+library(readr)
+
+dopisy3 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
+  mutate(dnes = as.Date(kdyPoslano) == Sys.Date(),
+         dopis = 
+           paste0(
+             "Vážená úèastnice, vážený úèastníku turnaje PGG, \n\n\n",
+             "dnes (", kdyPoslano, ") jsem Vám odeslal odmìnu ", castka, " Kè na Váš úèet èíslo ",
+             ucet, ". Ještì jednou -- a naposled -- Vám dìkuji za úèast v našem projektu a snad ",
+             "se setkáme v jiném projektu nìkdy v budoucnu. \n\n\nS úctou,\nFrantišek Kalvas")) %>% 
+  filter(dnes)
+
+
+## Samotné odeslání
 library(emayili)
 library(dplyr)
 library(magrittr)
 
-for (d in 1:nrow(dopisy2)) {
+for (d in 1:nrow(dopisy3)) {
   email <- envelope() %>% 
     from("kalvas@kss.zcu.cz") %>% 
-    to(dopisy2$email[d]) %>% 
-    subject(qp_encode("Vyhodnocení turnaje PGG (21.4.2021--2.5.2021): Druhý pokus o hromadné odeslání")) %>% 
-    text(qp_encode(dopisy2$dopis[d]))
+    to(dopisy3$email[d]) %>% 
+    subject(qp_encode("Peníze z turnaje PGG Vám byly dnes odeslány")) %>% 
+    text(qp_encode(dopisy3$dopis[d]))
   
   # print(email, details = T)
   
