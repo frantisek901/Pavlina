@@ -3,7 +3,7 @@
 
 ## Encoding: windows-1250
 ## Vytvoøil: 2021-04-21 FrK
-## Upravil: 2021-05-12 FrK
+## Upravil: 2021-05-17 FrK
 
 
 # ## Hlavièka a naètení dat -----------------------------------------------
@@ -128,7 +128,9 @@ library(dplyr)
 library(readr)
 library(readxl)
 
-dopisy3 = read_xlsx("prehled.xlsx") %>% select(email, ucet, castka, kdyPoslano) %>% 
+dopisy3 = readxl::read_xlsx("prehled.xlsx") %>% select(email, ucet, castka, kdyPoslano) %>%
+# dopisy3 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
+  filter(kdyPoslano != "---") %>%   
   mutate(dnes = as.Date(kdyPoslano) == Sys.Date(),
          dopis = 
            paste0(
