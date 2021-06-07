@@ -3,7 +3,7 @@
 
 ## Encoding: windows-1250
 ## Vytvoøil: 2021-04-21 FrK
-## Upravil: 2021-05-17 FrK
+##  Upravil: 2021-06-02 FrK
 
 
 # ## Hlavièka a naètení dat -----------------------------------------------
@@ -120,7 +120,7 @@ write_xlsx(vyhodnoceni %>% ungroup() %>% select(email, odmena), "odmeny.xlsx")
 
 
 
-# ## Odeslání zprávy o poslání penìz: ---------------------------------
+# ## Upomínka o èíslo úètu: ---------------------------------
 
 
 ## Konstrukce zprávy
@@ -128,8 +128,54 @@ library(dplyr)
 library(readr)
 library(readxl)
 
+dopisy4= readxl::read_xlsx("prehled.xlsx") %>% select(email, ucet, castka, kdyPoslano) %>%
+# dopisy4 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
+  filter(ucet == ".", castka > 0) %>%   
+  mutate(dopis = 
+           paste0(
+             "Vážená úèastnice, vážený úèastníku turnaje PGG, \n\n\n",
+             "mezi 21. dubnem a 2. kvìtnem 2021 probìhl turnaj PGG, což byla kooperativní hra ",
+             "poøádaná Laboratoøí experimentální sociologie ZÈU, ",
+             "které jste se úèastnil/a spolu s dalšími tøemi pøáteli nebo známými. ",
+             "Máme pro Vás za Vaší úèast pøipravenou odmìnu ", castka, 
+             " Kè, ale stále neevidujeme èíslo Vašeho úètu. ",
+             "Pokud máte o odmìnu zájem, zašlete nám prosím na tento e-mail èíslo úètu.",
+             "\n\n\nS úctou,\nFrantišek Kalvas")) 
+
+
+## Samotné odeslání
+library(emayili)
+library(dplyr)
+library(magrittr)
+
+for (d in 1:nrow(dopisy4)) {
+  email <- envelope() %>% 
+    from("kalvas@kss.zcu.cz") %>% 
+    to(dopisy4$email[d]) %>% 
+    subject(qp_encode("Turnaj PGG: 2. upomínka")) %>% 
+    text(qp_encode(dopisy4$dopis[d]))
+  
+  # print(email, details = T)
+  
+  smtp <- server(host = "smtp.zcu.cz",
+                 port = 465,
+                 username = "login",
+                 password = "pass")
+  
+  smtp(email, verbose = TRUE)  
+}
+
+
+
+# ## Informace o odeslání penìz -------------------------------------------
+
+## Konstrukce zprávy
+library(dplyr)
+library(readr)
+library(readxl)
+
 dopisy3 = readxl::read_xlsx("prehled.xlsx") %>% select(email, ucet, castka, kdyPoslano) %>%
-# dopisy3 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
+  # dopisy3 = read_csv2("prehled.csv") %>% select(email, ucet, castka, kdyPoslano) %>% 
   filter(kdyPoslano != "---") %>%   
   mutate(dnes = as.Date(kdyPoslano) == Sys.Date(),
          dopis = 
@@ -162,5 +208,6 @@ for (d in 1:nrow(dopisy3)) {
   
   smtp(email, verbose = TRUE)  
 }
+
 
 
